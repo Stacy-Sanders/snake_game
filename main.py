@@ -5,7 +5,8 @@ from scoreboard import Scoreboard
 import time
 
 screen = Screen()
-screen.screensize(canvwidth=600, canvheight=600, bg="black")
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
